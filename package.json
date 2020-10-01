@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Servidor de node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackadlv/Seminario-profesional.git"
+  },
+  "keywords": [
+    "server",
+    "node.js"
+  ],
+  "author": "Alejandro Lopez",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/hackadlv/Seminario-profesional/issues"
+  },
+  "homepage": "https://github.com/hackadlv/Seminario-profesional#readme"
+}
