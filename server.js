@@ -1,16 +1,22 @@
 const express = require ('express')
+const bodyParser = require('body-parser')
 
 const router = express.Router()
 
 var app = express()
+app.use (bodyParser.json() )
+app.use (bodyParser.urlencoded({extended:false}) )
 app.use ( router )
 
 router.get('/carrera' , function(req, res){
-    console.log( req.body )
-    console.log( req.query )
     res.send('Lista de Carreras.')
 })
+router.post('/carrera' ,function(req, res){
+    console.log( req.body )
+    console.log( req.query )
 
+    res.status(201).send( {tipo_error:0, mensaje_error:'', mensaje_exito: 'Añadido exitosamente'})
+})
 app.use( '/', express.static('public') )
 
 app.listen( 5000 )
