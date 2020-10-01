@@ -1,28 +1,26 @@
 {
-  "name": "server",
+  "name": "utcae",
   "version": "1.0.0",
-  "description": "Servidor de node.js",
+  "description": "Sistema de Titulacion para la Carrera de Administracion de Empresas",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hackadlv/Seminario-profesional.git"
+    "url": "git+https://github.com/hackadlv/node-project.git"
   },
   "keywords": [
-    "server",
-    "node.js"
+    "utcae"
   ],
   "author": "Alejandro Lopez",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/hackadlv/Seminario-profesional/issues"
+    "url": "https://github.com/hackadlv/node-project/issues"
   },
-  "homepage": "https://github.com/hackadlv/Seminario-profesional#readme",
+  "homepage": "https://github.com/hackadlv/node-project#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.4"
+    "express": "^4.17.1"
   }
 }
